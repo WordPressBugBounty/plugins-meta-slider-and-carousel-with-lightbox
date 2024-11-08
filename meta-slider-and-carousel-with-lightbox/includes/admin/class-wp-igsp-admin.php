@@ -60,7 +60,7 @@ class Wp_Igsp_Admin {
 		add_submenu_page( 'edit.php?post_type='.WP_IGSP_POST_TYPE, __('Overview - Meta slider and carousel with lightbox', 'meta-slider-and-carousel-with-lightbox'), '<span style="color:#2ECC71">'. __('Overview', 'meta-slider-and-carousel-with-lightbox').'</span>', 'manage_options', 'wp-igsp-solutions-features', array($this, 'wp_igsp_solutions_features_page') );
 
 		// Register Premium Feature Page
-		add_submenu_page( 'edit.php?post_type='.WP_IGSP_POST_TYPE, __('Upgrade To PRO - Meta slider and carousel with lightbox', 'meta-slider-and-carousel-with-lightbox'), '<span style="color:#ff2700">'.__('Upgrade To PRO - Try Pro For 5 Days Free', 'meta-slider-and-carousel-with-lightbox').'</span>', 'manage_options', 'wp-igsp-premium', array($this, 'wp_igsp_premium_page') );
+		add_submenu_page( 'edit.php?post_type='.WP_IGSP_POST_TYPE, __('Upgrade To PRO - Meta slider and carousel with lightbox', 'meta-slider-and-carousel-with-lightbox'), '<span style="color:#ff2700">'.__('Upgrade To PRO – Early Back Friday Deals', 'meta-slider-and-carousel-with-lightbox').'</span>', 'manage_options', 'wp-igsp-premium', array($this, 'wp_igsp_premium_page') );
 	}
 
 	/**

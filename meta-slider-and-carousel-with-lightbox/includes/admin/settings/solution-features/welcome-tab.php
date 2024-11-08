@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="igsp_welcome_tabs" class="igsp-vtab-cnt igsp_welcome_tabs igsp-clearfix">
-	
+<?php /*	
 	<div class="igsp-deal-offer-wrap">
 		<h3 style="font-weight: bold; font-size: 30px; color:#ffef00; text-align:center; margin: 15px 0 5px 0;">Why Invest Time On Free Version?</h3>
 
@@ -22,6 +22,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="igsp-deal-free-offer">
 			<a href="<?php echo esc_url( WP_IGSP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="igsp-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 		</div>
+	</div>
+*/ ?>
+
+	<div class="igsp-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WP_IGSP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_IGSP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 	<!-- Start - Welcome Box -->

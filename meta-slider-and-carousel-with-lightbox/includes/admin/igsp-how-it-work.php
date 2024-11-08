@@ -160,7 +160,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<li>100% Multi language</li>
 							</ul>
 							<div class="upgrade-to-pro"><?php esc_html_e( 'Gain access to', 'meta-slider-and-carousel-with-lightbox'); ?> <strong><?php esc_html_e('Meta slider and carousel with lightbox', 'meta-slider-and-carousel-with-lightbox'); ?></strong></div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url( WP_IGSP_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e('Try Pro For 5 Days Free', 'meta-slider-and-carousel-with-lightbox'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url( WP_IGSP_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'meta-slider-and-carousel-with-lightbox'); ?></a>
 						</div><!-- .inside -->
 					</div><!-- #general -->
 				</div><!-- .meta-box-sortables -->

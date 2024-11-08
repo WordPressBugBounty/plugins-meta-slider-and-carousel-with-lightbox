@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
 Tags: frontend gallery slider, frontend gallery Carousel, meta gallery image slider, meta gallery image carousel, gallery slider
 Requires at least: 4.0
-Tested up to: 6.6.1
-Stable tag: 2.0.2
+Tested up to: 6.6.2
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -143,6 +143,9 @@ Where designs are : design-1. You can use same parameter with Carousel shortcode
 6. Also work with Gutenberg shortcode block.
 
 == Changelog == 
+
+= 2.0.3 (08, Nov 2024) =
+* [*] Check compatibility with WordPress version 6.6.2
 
 = 2.0.2 (03, Sept 2024) =
 * [*] Fixed vulnerabilities title issue with lightbox.

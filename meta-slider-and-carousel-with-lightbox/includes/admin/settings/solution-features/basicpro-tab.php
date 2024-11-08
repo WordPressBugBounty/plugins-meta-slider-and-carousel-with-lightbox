@@ -12,9 +12,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 } ?>
 <div id="igsp_basic_tabs" class="igsp-vtab-cnt igsp_basic_tabs igsp-clearfix">
-	<!-- <h3 class="igsp-basic-heading">Compare <span class="igsp-blue">"Meta Slider and Carousel with Lightbox"</span> Basic VS Pro</h3> -->
+	<?php /*
+	<h3 class="igsp-basic-heading">Compare <span class="igsp-blue">"Meta Slider and Carousel with Lightbox"</span> Basic VS Pro</h3>
 	
-	<!-- <div class="igsp-deal-offer-wrap">
+	<div class="igsp-deal-offer-wrap">
 		<div class="igsp-deal-offer"> 
 			<div class="igsp-inn-deal-offer">
 				<h3 class="igsp-inn-deal-hedding"><span>Buy Meta Slider Pro</span> today and unlock all the powerful features.</h3>
@@ -22,11 +23,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			<div class="igsp-inn-deal-offer-btn">
 				<div class="igsp-inn-deal-code"><span>EPSEXTRA</span></div>
-				<a href="<?php // echo esc_url(WP_IGSP_PLUGIN_BUNDLE_LINK); ?>"  target="_blank" class="igsp-sf-btn igsp-sf-btn-orange"><span class="dashicons dashicons-cart"></span> Get Essential Bundle Now</a>
+				<a href="<?php echo esc_url(WP_IGSP_PLUGIN_BUNDLE_LINK); ?>"  target="_blank" class="igsp-sf-btn igsp-sf-btn-orange"><span class="dashicons dashicons-cart"></span> Get Essential Bundle Now</a>
 				<em class="risk-free-guarantee"><span class="heading">Risk-Free Guarantee </span> - We offer a <span>30-day money back guarantee on all purchases</span>. If you are not happy with your purchases, we will refund your purchase. No questions asked!</em>
 			</div>
 		</div>
-	</div> -->
+	</div>
+	
 
 	<div class="igsp-deal-offer-wrap">
 		<div class="igsp-deal-offer"> 
@@ -38,6 +40,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 		</div>
 	</div>
+	*/ ?>
+	
+	<div class="igsp-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WP_IGSP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_IGSP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
+	<h3 class="igsp-basic-heading">Compare <span class="igsp-blue">"Meta Slider and Carousel with Lightbox"</span> Basic VS Pro</h3>
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -214,7 +223,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</tbody>
 	</table>
 
-	<!-- <div class="igsp-deal-offer-wrap">
+<?php /*
+	<div class="igsp-deal-offer-wrap">
 		<div class="igsp-deal-offer"> 
 			<div class="igsp-inn-deal-offer">
 				<h3 class="igsp-inn-deal-hedding"><span>Buy Meta Slider Pro</span> today and unlock all the powerful features.</h3>
@@ -222,11 +232,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			<div class="igsp-inn-deal-offer-btn">
 				<div class="igsp-inn-deal-code"><span>EPSEXTRA</span></div>
-				<a href="<?php //echo esc_url(WP_IGSP_PLUGIN_BUNDLE_LINK); ?>"  target="_blank" class="igsp-sf-btn igsp-sf-btn-orange"><span class="dashicons dashicons-cart"></span> Get Essential Bundle Now</a>
+				<a href="<?php echo esc_url(WP_IGSP_PLUGIN_BUNDLE_LINK); ?>"  target="_blank" class="igsp-sf-btn igsp-sf-btn-orange"><span class="dashicons dashicons-cart"></span> Get Essential Bundle Now</a>
 				<em class="risk-free-guarantee"><span class="heading">Risk-Free Guarantee </span> - We offer a <span>30-day money back guarantee on all purchases</span>. If you are not happy with your purchases, we will refund your purchase. No questions asked!</em>
 			</div>
 		</div>
-	</div> -->
+	</div>
 
 	<div class="igsp-deal-offer-wrap">
 		<div class="igsp-deal-offer"> 
@@ -237,6 +247,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<a href="<?php echo esc_url( WP_IGSP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="igsp-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div>
+	*/ ?>
+
+	<div class="igsp-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WP_IGSP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_IGSP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 </div>

@@ -14,6 +14,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="igsp_unlock_tabs" class="igsp-vtab-cnt igsp_unlock_tabs igsp-clearfix">
 	
+	<div class="igsp-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WP_IGSP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_IGSP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<h2 style="font-size: 24px; text-align: center; color: #6c63ff;">Bundle Deal Details</h2>
 	<table class="wpos-plugin-list">
 		<thead>
@@ -86,13 +90,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</thead>
 	</table>
 
+<?php /*
 	<div class="igsp-favourite-section">
 		<h3 class="igsp-blue igsp-favourite-heading">Use Essential Plugin Bundle</h3>
 		<h1 class="igsp-favourite-sub-heading">With Your Favourite Page Builders</h1>
 		<span><i class="dashicons dashicons-yes"></i> = <img src="<?php echo esc_url( WP_IGSP_URL ); ?>assets/images/essential-logo-small.png" width="15" height="15" /> Essential Plugin Bundle contain many more layouts and designs</span>
 	</div>
 
-	<!-- <div class="igsp-deal-offer-wrap">
+	<div class="igsp-deal-offer-wrap">
 		<div class="igsp-deal-offer"> 
 			<div class="igsp-inn-deal-offer">
 				<h3 class="igsp-inn-deal-hedding"><span>Buy Meta Slider Pro</span> today and unlock all the powerful features.</h3>
@@ -100,11 +105,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			<div class="igsp-inn-deal-offer-btn">
 				<div class="igsp-inn-deal-code"><span>EPSEXTRA</span></div>
-				<a href="<?php // echo esc_url(WP_IGSP_PLUGIN_BUNDLE_LINK); ?>"  target="_blank" class="igsp-sf-btn igsp-sf-btn-orange"><span class="dashicons dashicons-cart"></span> Get Essential Bundle Now</a>
+				<a href="<?php  echo esc_url(WP_IGSP_PLUGIN_BUNDLE_LINK); ?>"  target="_blank" class="igsp-sf-btn igsp-sf-btn-orange"><span class="dashicons dashicons-cart"></span> Get Essential Bundle Now</a>
 				<em class="risk-free-guarantee"><span class="heading">Risk-Free Guarantee </span> - We offer a <span>30-day money back guarantee on all purchases</span>. If you are not happy with your purchases, we will refund your purchase. No questions asked!</em>
 			</div>
 		</div>
-	</div> -->
+	</div>
 
 	<div class="igsp-deal-offer-wrap">
 		<div class="igsp-deal-offer"> 
@@ -116,5 +121,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 		</div>
 	</div>
+*/ ?>
 
 </div>
