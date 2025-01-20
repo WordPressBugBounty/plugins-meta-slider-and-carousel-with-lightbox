@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="igsp_unlock_tabs" class="igsp-vtab-cnt igsp_unlock_tabs igsp-clearfix">
 	
-	<div class="igsp-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WP_IGSP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_IGSP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="igsp-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WP_IGSP_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WP_IGSP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<h2 style="font-size: 24px; text-align: center; color: #6c63ff;">Bundle Deal Details</h2>
 	<table class="wpos-plugin-list">

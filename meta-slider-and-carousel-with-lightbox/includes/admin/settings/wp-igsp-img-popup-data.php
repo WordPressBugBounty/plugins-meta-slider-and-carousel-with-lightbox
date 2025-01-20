@@ -62,7 +62,7 @@ $alt_text = get_post_meta( $attachment_id, '_wp_attachment_image_alt', true );
 					<textarea name="wp_igsp_attachment_desc" class="large-text wp-igsp-attachment-desc" id="wp-igsp-attachment-desc" disabled=""></textarea>
 					<!-- <span class="description"><?php //esc_html_e('Enter image description.', 'meta-slider-and-carousel-with-lightbox'); ?></span><strong><?php //echo sprintf( __( ' Utilize these <a href="%s" target="_blank">Premium Features (With Risk-Free 30 days money back guarantee)</a> to get best of this plugin with Annual or Lifetime bundle deal.', 'meta-slider-and-carousel-with-lightbox'), WP_IGSP_PLUGIN_LINK_UNLOCK); ?></strong> -->
 				
-					<span class="description"><?php esc_html_e('Enter image description.', 'meta-slider-and-carousel-with-lightbox'); ?></span><strong><?php echo sprintf( __( ' Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'meta-slider-and-carousel-with-lightbox'), WP_IGSP_PLUGIN_LINK_UNLOCK); ?></strong>
+					<span class="description"><?php esc_html_e('Enter image description.', 'meta-slider-and-carousel-with-lightbox'); ?></span><strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'meta-slider-and-carousel-with-lightbox'), WP_IGSP_PLUGIN_LINK_UNLOCK); ?></strong>
 				</td>
 			</tr>
 
@@ -74,7 +74,7 @@ $alt_text = get_post_meta( $attachment_id, '_wp_attachment_image_alt', true );
 					<input type="url" name="wp_igsp_attachment_link" value="" class="large-text wp-igsp-attachment-link" disabled=""/>
 					<!-- <span class="description"><?php //esc_html_e('Enter image link.', 'meta-slider-and-carousel-with-lightbox'); ?></span><?php //echo sprintf( __( ' Utilize these <a href="%s" target="_blank">Premium Features (With Risk-Free 30 days money back guarantee)</a> to get best of this plugin with Annual or Lifetime bundle deal.', 'meta-slider-and-carousel-with-lightbox'), WP_IGSP_PLUGIN_LINK_UNLOCK); ?> -->
 
-					<span class="description"><?php esc_html_e('Enter image link.', 'meta-slider-and-carousel-with-lightbox'); ?></span><strong><?php echo sprintf( __( ' Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'meta-slider-and-carousel-with-lightbox'), WP_IGSP_PLUGIN_LINK_UNLOCK); ?></strong>
+					<span class="description"><?php esc_html_e('Enter image link.', 'meta-slider-and-carousel-with-lightbox'); ?></span><strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'meta-slider-and-carousel-with-lightbox'), WP_IGSP_PLUGIN_LINK_UNLOCK); ?></strong>
 				</td>
 			</tr>
 
