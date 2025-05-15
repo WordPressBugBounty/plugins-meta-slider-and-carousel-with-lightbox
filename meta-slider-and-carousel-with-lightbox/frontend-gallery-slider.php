@@ -3,11 +3,11 @@
  * Plugin Name: Meta Slider and Carousel with Lightbox
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/meta-slider-carousel-lightbox/
  * Description: Plugin add a gallery meta box in your post, page and create a Image gallery menu tab. Display with a lightbox. Also work with Gutenberg shortcode block.
- * Author: WP OnlineSupport, Essential Plugin
+ * Author: Essential Plugin
  * Text Domain: meta-slider-and-carousel-with-lightbox
  * Domain Path: /languages/
- * Version: 2.0.4
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/meta-slider-carousel-lightbox/
+ * Version: 2.0.5
+ * Author URI: https://www.essentialplugin.com
  *
  * @package Meta Slider and Carousel with Lightbox
  * @author Essential Plugin
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_IGSP_VERSION' ) ) {
-	define( 'WP_IGSP_VERSION', '2.0.4' ); // Version of plugin
+	define( 'WP_IGSP_VERSION', '2.0.5' ); // Version of plugin
 }
 
 if( ! defined( 'WP_IGSP_DIR' ) ) {
@@ -36,14 +36,6 @@ if( ! defined( 'WP_IGSP_POST_TYPE' ) ) {
 if( ! defined( 'WP_IGSP_META_PREFIX' ) ) {
 	define( 'WP_IGSP_META_PREFIX', '_wp_igsp_' ); // Plugin metabox prefix
 }
-
-// if( ! defined( 'WP_IGSP_PLUGIN_BUNDLE_LINK' ) ) {
-// 	define( 'WP_IGSP_PLUGIN_BUNDLE_LINK','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Meta-Slider&utm_campaign=Welcome-Screen' ); // Plugin link
-// }
-
-// if( ! defined( 'WP_IGSP_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define( 'WP_IGSP_PLUGIN_LINK_UNLOCK','https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=Meta-Slider&utm_campaign=Features-PRO' ); // Plugin link
-// }
 
 if( ! defined( 'WP_IGSP_PLUGIN_LINK_UPGRADE' ) ) {
 	define( 'WP_IGSP_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Meta-Slider&utm_campaign=Upgrade-PRO' ); // Plugin Check link

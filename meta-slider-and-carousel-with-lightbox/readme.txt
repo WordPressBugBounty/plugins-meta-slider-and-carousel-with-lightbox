@@ -1,13 +1,13 @@
 ﻿=== Meta Slider and Carousel with Lightbox ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
+Contributors: essentialplugin
 Tags: frontend gallery slider, frontend gallery Carousel, meta gallery image slider, meta gallery image carousel, gallery slider
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 2.0.4
+Tested up to: 6.8.1
+Stable tag: 2.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin add a gallery meta box in your post, page and create a Image gallery menu tab. Display with a lightbox. Also work with Gutenberg shortcode block.
+Add a gallery meta box in your post, page and create a Image gallery menu tab. Display with a lightbox. Also work with Gutenberg shortcode block.
 
 == Description ==
 
@@ -143,6 +143,9 @@ Where designs are : design-1. You can use same parameter with Carousel shortcode
 6. Also work with Gutenberg shortcode block.
 
 == Changelog == 
+
+= 2.0.5 (15, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 2.0.4 (20, January 2025) =
 * [*] Check compatibility to WordPress version 6.7.1
